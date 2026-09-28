@@ -1,0 +1,383 @@
+ body{
+              background-color: #e2e7e6;
+        }
+        *{
+            margin: 0px;
+            font-family: arial;
+             box-sizing: border-box;
+            
+        }
+        .navbar{
+            height: 60px;
+            background-color:#0f1111;
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+        }
+         .nav-logo{
+            height: 40px;
+            width: 127px;
+
+         }
+         .logo{
+           
+        background-image: url("amalogo.jpeg");
+            background-size:cover;
+            height: 40px; 
+            width: 100%;
+         }
+         .border{
+            border: 2px solid  transparent;
+            
+            
+         }
+         .border:hover{
+            border: 2px solid white;
+             
+         }
+         .addre-icon{ 
+            display: flex;
+            align-items: center;
+         }
+         .Deliver{
+            color: #cccccc;
+            margin-left: 20px;
+            font-size: 0.85rem;
+         }
+         .India{
+            margin-left: 3px;
+            color: white;
+         }
+.main-bar{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+input{
+     width:  800px;
+     height: 40px;
+     padding: 7px 10px 10px 0px;
+     border: none;
+}
+.main-bar:hover{
+    border: 2px solid orange;
+     border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+       border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+} 
+.all{
+      background-color: #f3f3f3;
+      height: 40px;
+      width: 50px;
+      margin-left: 1px;
+      text-align: center;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border: none;      
+} 
+.search-icon{
+     height: 40px;
+    width: 40px;
+    background-color:  #febd68;
+     border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.3rem;
+      color: #0f1111;
+} 
+.name{
+    font-size: 12px;
+    color: white;
+}
+.shakeel{
+    font-size: 14px;
+    color: white;
+}
+.return{
+    font-size: 12px;
+    color: white;
+}
+.order{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+ 
+.asad{
+    display: flex;
+    font-size: 1.5rem;
+    margin-right: 5px;
+    color: white;
+}
+
+/* panel */
+ 
+ 
+.alls{
+    
+    
+    font-size: 1.1rem;
+    margin-left: 20px;
+    color: white;
+    
+}
+.container{
+     
+     display: flex;
+     align-items: center;
+    height: 40px; 
+     background-color: #232f3e;
+     color: white;
+     font-weight: bold;
+}
+.today{
+    margin-left: 20px;
+    font-size: 0.85rem;
+    
+} 
+.prime{
+    margin-left: 20px;
+    font-size: 0.85rem;
+     
+} 
+.ragistory{
+    margin-left: 20px;
+    font-size: 0.85rem;
+    
+    
+}
+.git-cards{
+
+    margin-left: 20px;
+    font-size: 0.85rem;
+    
+} 
+.customer{
+    margin-left: 20px;
+    font-size: 0.85rem;
+    
+} 
+.sell{
+    margin-left: 20px;
+    font-size: 0.85rem;
+     
+}  
+         
+/* hero-section */
+.hero-section{
+     display: flex;
+      
+    height: 450px;
+    justify-content: center;
+     align-items: flex-end;  
+    background-image: url("shakeel-cloan.jpg");
+    background-size: cover;
+    justify-content: space-evenly; 
+}
+
+.hero-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    width: 97%; 
+    margin-bottom: 40px;
+} 
+a{ 
+    color: #007185;
+    margin-left: 5px;
+} 
+
+/** shop-section **/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+.mohd-asad{
+     
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+    margin-left: 20px; 
+
+    
+
+}
+.box-img{
+    height: 250px;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.box-contant{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+p{
+margin-left: 20px; 
+color: color blue;
+}
+h2{
+    margin-left:20px;
+
+} 
+
+/* four parts */  
+.four-container{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 15px;   
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 12px;
+    background-color: white;
+    margin-right: 12px;
+    
+    
+} 
+.box1{ 
+height: 110px;
+width: 150px;
+margin-top: 20px;
+background-image: url(pc\ gaming\ box9.jpg);
+background-size: cover;
+} 
+.box2{ 
+height: 110px;
+width: 150px;
+margin-top: 20px;
+background-image: url(desktop\ box12.jpg);
+background-size: cover;
+}
+
+.box3{  
+height: 110px;
+width: 150px;
+margin-top: 20px;
+background-image: url(game-remot\ box10.jpg);
+background-size: cover;
+}
+
+.box4{ 
+height: 110px;
+width: 150px;
+margin-top: 20px;
+background-image: url(t\ sirt\ box15.jpg);
+background-size: cover;
+} 
+.four-box-main-container{
+    display: flex;
+} 
+.screencontainer{  
+    display: flex;
+    margin-top: 10px; 
+} 
+.display{
+height: 420px;
+width: 1480px;
+background-image: url("shakeel.screenshort.png");
+background-size: cover;
+}
+.screen-short2-container{
+    display: flex;
+    margin-top: 10px;
+}
+.part2{
+    height: 282px;
+    width: 1480px;
+    background-image: url("screen-short.2.png");
+    background-size: cover;
+}
+.next-container{
+    display: flex;
+    margin-top: 10px;   
+}
+.next{
+    height: 282px; 
+    width: 1480px;
+    background-image: url("screen-short03.png");
+    background-size: cover;
+} 
+.theury-container{
+    width:100%;
+    height: 200px;
+    display: flex;
+    margin-top: 20px; 
+    background-color: white; 
+}
+.theury01{ 
+    display:flex;
+    flex-direction:column;
+     align-items:center;
+     justify-content:center;
+
+    height: 148px;
+    width:100%;
+    text-align: center; 
+     margin-top: 25px;
+     border: 0.30px solid gainsboro;
+     
+     
+}
+.new-customer{
+    margin-top:5px;
+    font-size: 10px;
+    color:black
+    
+
+}
+button{
+    background-color: rgb(248, 224, 6);
+    color: black;
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+.backtotop{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+height: 50px;
+width: 100%;
+     background-color: #232f3e;
+     /* color: white;
+     font-weight: bold; */
+}
+.back{
+    color:white;
+    font-size: 13px;
+    
+
+}
+.title{
+    margin: left 20px; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
